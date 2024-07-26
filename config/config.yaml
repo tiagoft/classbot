@@ -1,0 +1,27 @@
+# Example YAML configuration file
+
+channels:
+  alglin2024s2:
+    name: alglin2024s2
+    description: "Álgebra Linear - 2o. semestre de 2024"
+    timezone: "UTC-3"
+    start_date: "2024-08-05"
+    end_date: "2024-12-31"
+    classes:
+      - day: "Monday"
+        time: "10:00"
+        duration: 60
+      - day: "Wednesday"
+        time: "10:00"
+        duration: 60
+      - day: "Friday"
+        time: "10:00"
+        duration: 60
+    office_hours:
+      - day: "Wednesday"
+        time: "14:00"
+        duration: 60
+    instructors:
+      - name: "Tiago Fernandes Tavares"
+        email: "tiagoft1@insper.edu.br"
+        office: "TI-25, Quatá 300 (Prédio 1)"
